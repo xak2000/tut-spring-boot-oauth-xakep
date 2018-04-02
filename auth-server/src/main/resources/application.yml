@@ -1,0 +1,19 @@
+#spring:
+#  security:
+#    user:
+#      password: pass
+
+#security:
+#  oauth2:
+#    authorization:
+#      check-token-access: isAuthenticated()
+#    client:
+#      client-id: acme
+#      client-secret: acmesecret
+#      scope: read, write
+#      authorized-grant-types: password
+
+logging:
+  level:
+    org.springframework.security: DEBUG
+    org.springframework.web: DEBUG

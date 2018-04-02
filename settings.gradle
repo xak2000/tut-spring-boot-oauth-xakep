@@ -1,0 +1,4 @@
+rootProject.name = 'tut-spring-boot-oauth-xakep'
+
+include 'auth-server'
+include 'resource-server'
